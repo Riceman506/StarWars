@@ -14,7 +14,7 @@ def watch_Order(name):
     elif name == "Bonus":
         st.header("Solo, Rouge One, IV, V, I, II, III, VI, VII, VIII, IX")
 
-    image_filename = os.path.join("StarWars/"+name.lower() + ".jpg")
+    image_filename = os.path.join(name.lower() + ".jpg")
     st.image(image_filename, use_column_width=True)
     st.header("Moives:")
 
